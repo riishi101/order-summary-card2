@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(img/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  height: 570px;
+  width: 380px;
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px hsla(207, 4%, 56%, 0.541);
+}
+.main-img {
+  width: 380px;
+  height: 200px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 0.8rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+.description {
+  text-align: center;
+  width: 300px;
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(225, 100%, 94%, 0.344);
+  height: 80px;
+  width: 300px;
+  border-radius: 9px;
+  margin-top: 0.3rem;
+  padding: 1rem;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  align-items: flex-start;
+}
+.para-features {
+  font-weight: 700;
+}
+.para-features2 {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+a {
+  font-size: 14px;
+  font-weight: 700;
+}
+a:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+.icon-img {
+  height: 2.5rem;
+}
+button {
+  height: 40px;
+  width: 300px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 8px;
+  color: hsl(225, 100%, 98%);
+  border: none;
+  margin-top: 0.8rem;
+  box-shadow: 0px 5px 15px hsl(210, 4%, 56%);
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+.btn-description {
+  margin-top: 0.5rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-description:hover {
+  color: hsl(223, 47%, 23%);
+}
